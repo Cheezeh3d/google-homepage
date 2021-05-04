@@ -1,0 +1,167 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px;
+}
+
+header{
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_store{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#about_store_elements{
+    margin: 8px;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+#about_store_elements:hover{
+    text-decoration: underline;
+}
+
+.gmail_img_signin{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gmail_img_signin_span{
+    margin: 8px;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+
+#gmail_img_signin_span:hover{
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+#gmail_img_signin_elements{
+    margin: 8px;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+#gmail_img_signin_elements:hover{
+    text-decoration: underline;
+}
+
+#gmail_img_signin_button{
+    background-color: rgb(24, 78, 255);
+    padding: 5px 12px 5px 12px;
+    border: 1px solid rgb(24, 78, 255);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.google-img{
+    max-width: 272px;
+    max-height: auto;
+}
+
+.search{
+    align-self: center;
+    width: 558px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+
+.search > i{
+    position: absolute;
+    padding-left: 15px;
+    color: rgb(124, 124, 124);
+    font-size: 1.25em;
+}
+
+#search{
+    text-align: left;
+    padding-left: 45px;
+    width: 506px;
+    height: 2.3em;
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+.search > input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0px 0px 3px rgb(177, 177, 177);
+    border: 0px;
+}
+
+#button{
+    background-color:rgb(235, 235, 235);
+    padding: 7px 12px 7px 12px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#button:hover{
+    background-color:rgb(248, 248, 248);
+    border: 1px solid rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+#footer{
+    bottom: 0;
+    height: 40px;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(231, 231, 231)
+}
+
+.advt-busi-how{
+    padding: 0px 10px 0px 10px;
+}
+
+#advt-busi-how-elements{
+    margin: 8px;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+#advt-busi-how-elements:hover{
+    text-decoration: underline;
+}
+
+.priv-term-sett{
+    padding: 0px 10px 0px 10px;
+}
+
+#priv-term-sett-elements{
+    margin: 8px;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+#priv-term-sett-elements:hover{
+    text-decoration: underline;
+}
